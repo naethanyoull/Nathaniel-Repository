@@ -51,9 +51,10 @@ int gayness = 0;
     //questionOneAnswerNumber = questionOneAnswerNumber - 1;   
     questionOneAnswerNumber %= 2;
         if (questionOneAnswerNumber == 0 ){
-            questionOneAnswer = "you are " + gayness + 20 + "% gay so far!";
+            gayness += 20;
+            questionOneAnswer = "you are " + gayness + "% gay so far!";
         } else {
-            questionOneAnswer = "you are " + gayness + 0 + "% gay so far!";
+            questionOneAnswer = "you are " + gayness + "% gay so far!";
         }
 
         return questionOneAnswer;
@@ -65,7 +66,9 @@ int gayness = 0;
         
         //I need help for ideas of gayness so add a comment and insert a gayness % to add
         switch (q2Color){
-        case "Red": colorMeaning = "";
+        case "Red": gayness += 10;
+        colorMeaning = "You are " + gayness + "%!";
+        
         break;
         
         case "Orange": colorMeaning = "";
