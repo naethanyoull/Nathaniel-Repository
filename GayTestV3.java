@@ -1,5 +1,7 @@
 //Gay Test by Nathaniel
 
+//Testing Push
+
 //Imports
     //User Input (Scanner)
     import java.util.Scanner;
