@@ -67,29 +67,35 @@ int gayness = 0;
         //I need help for ideas of gayness so add a comment and insert a gayness % to add
         switch (q2Color){
         case "Red": gayness += 10;
-        colorMeaning = "You are " + gayness + "%!";
-        
+        colorMeaning = "You are " + gayness + "% gay!";
         break;
         
-        case "Orange": colorMeaning = "";
+        case "Orange": gayness += 10;
+        colorMeaning = "You are " + gayness + "% gay!";
         break;
 
-        case "Yellow": colorMeaning = "";
+        case "Yellow": gayness += 10;
+        colorMeaning = "You are " + gayness + "% gay!";
         break;
         
-        case "Green": colorMeaning = "";
+        case "Green": gayness += 10;
+        colorMeaning = "You are " + gayness + "% gay!";
         break;
 
-        case "Blue": colorMeaning = "";
+        case "Blue": gayness += 10;
+        colorMeaning = "You are " + gayness + "% gay!";
         break;
         
-        case "Indigo": colorMeaning = "";
+        case "Indigo": gayness += 10;
+        colorMeaning = "You are " + gayness + "% gay!";
         break;
 
-        case "Violet": colorMeaning = "";
+        case "Violet": gayness += 10;
+        colorMeaning = "You are " + gayness + "% gay!";
         break;
         
-        case default: colorMeaning = "Not a color!";
+        case default: gayness += 10;
+        colorMeaning = "You are " + gayness + "% gay!";
         break;  
         }
 
